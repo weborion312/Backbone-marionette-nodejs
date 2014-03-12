@@ -1,0 +1,29 @@
+{
+  "name": "backbone.auth",
+  "homepage": "https://github.com/myhq/backbone.auth",
+  "authors": [
+    "joliveros <jose.oliveros.1983@gmail.com>"
+  ],
+  "description": "backbone extension that enables auth",
+  "main": "index.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone-amd": "~1.1.0"
+  },
+  "_release": "f79ed87561",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f79ed875611d835e1f9e82a0aa3ae21b3a165797"
+  },
+  "_source": "ssh://git@github.com/myhq/backbone.auth.git",
+  "_target": "*",
+  "_originalSource": "git+ssh://git@github.com/myhq/backbone.auth.git"
+}

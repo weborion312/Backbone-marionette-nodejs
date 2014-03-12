@@ -1,0 +1,300 @@
+<div class="calendar-content">
+<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+<!-- BEGIN PAGE HEADER-->
+    <div class="row">
+        <div class="col-md-12">
+            <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+            <h3 class="page-title">
+                Notification Calendar
+            </h3>
+            <ul class="page-breadcrumb breadcrumb">
+                <li class="btn-group">
+                    <button type="button" class="btn blue dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true">
+                        <span>Actions</span> <i class="fa fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-menu pull-right" role="menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="fa fa-calendar"></i>
+                    <a href="index.html">Calendar</a>
+                </li>
+
+            </ul>
+            <!-- END PAGE TITLE & BREADCRUMB-->
+        </div>
+    </div>
+<!-- END PAGE HEADER-->
+
+<!-- BEGIN PAGE CONTENT-->
+<div class="row">
+  <div class="col-md-12">
+     <div class="tabbable tabbable-custom boxless">
+	
+        <div class="tab-content">
+           <div class="tab-pane active" id="tab_0">
+              <div class="task-body">
+                 <div class="col-md-12 col-sm-12 calendar-full">
+                    <div id="calendar" class="has-toolbar"></div>
+                 </div>
+              </div>
+ 
+              <div class="taskDescription">
+                 <div class="portlet-body form">
+                 
+		 <!-- BEGIN FORM-->
+                    <form action="#" class="form-horizontal">
+           
+                       <div class="form-body">
+                          <div class="form-group">
+                             <label  class="col-md-3 control-label">Title</label>
+                             <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="What you gotta do?">
+                             </div>
+                          </div>
+ 
+                          <div class="form-group">
+                             <label class="control-label col-md-3">List/agenta</label>
+                             <div class="agenta-block">
+                                <div>
+                                   <div class="input-group input-small">
+                                      <input type="text" class="spinner-input form-control" maxlength="3" readonly="">
+                                      <div class="spinner-buttons input-group-btn btn-group-vertical">
+				         <button type="button" class="btn spinner-up btn-xs">
+				            <i class="fa fa-angle-up"></i>
+				         </button>
+				         <button type="button" class="btn spinner-down btn-xs">
+                                            <i class="fa fa-angle-down"></i>
+                                         </button>
+                                      </div>
+                                </div>
+                             </div>
+                          </div>
+
+        <div class="tasks-metting">
+            <div class="inline-block">
+                <label>Tasks</label> <input type="radio">
+            </div>
+            <div class="inline-block">
+                <label>Meeting</label> <input type="radio">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Property</label>
+        <div class="inline-block estimate">
+            <div class="input-group input-small">
+                <input type="text" class="spinner-input form-control" maxlength="3" readonly="">
+                <div class="spinner-buttons input-group-btn btn-group-vertical">
+                    <button type="button" class="btn spinner-up btn-xs">
+                        <i class="fa fa-angle-up"></i>
+                    </button>
+                    <button type="button" class="btn spinner-down btn-xs">
+                        <i class="fa fa-angle-down"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="inline-block spent">
+            <label class="control-label description-status">Status</label>
+            <div class="inline-block">
+                <div class="input-group input-small">
+                    <input type="text" class="spinner-input form-control" maxlength="3" readonly="">
+                    <div class="spinner-buttons input-group-btn btn-group-vertical">
+                        <button type="button" class="btn spinner-up btn-xs">
+                            <i class="fa fa-angle-up"></i>
+                        </button>
+                        <button type="button" class="btn spinner-down btn-xs">
+                            <i class="fa fa-angle-down"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3">Assign to</label>
+        <div class="col-md-3">
+            <select class="form-control input-medium">
+                <option value=""></option>
+                <option value="AL">User1</option>
+                <option value="WY">User2</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Start</label>
+        <div class="col-md-3">
+            <div class="input-group input-medium date date-picker" data-date="12-02-2012" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                <input type="text" class="form-control" readonly="">
+												<span class="input-group-btn">
+												<button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+												</span>
+            </div>
+            <!-- /input-group -->
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3">Stop</label>
+        <div class="col-md-3">
+            <div class="input-group input-medium date date-picker" data-date="12-02-2012" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                <input type="text" class="form-control" readonly="">
+												<span class="input-group-btn">
+												<button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+												</span>
+            </div>
+            <!-- /input-group -->
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3">Reminder</label>
+        <div class="col-md-3">
+            <div class="input-group input-medium date date-picker" data-date="12-02-2012" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                <input type="text" class="form-control" readonly="">
+												<span class="input-group-btn">
+												<button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+												</span>
+            </div>
+            <!-- /input-group -->
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Location</label>
+        <div class="col-md-9 google-maps-input">
+            <div class="input-group" >
+                <input type="text" class="form-control" >
+                    <span class="input-group-btn">
+                        <button class="btn default" type="button">Google Maps</button>
+                    </span>
+            </div>
+            <!-- /input-group -->
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3">Estimate</label>
+        <div class="estimate">
+            <div>
+                <div class="input-small">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="spent">
+            <label class="control-label">Spent</label>
+            <div class="inline-block">
+                <div>
+                    <div class="input-small">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label  class="col-md-3 control-label" style="margin-right: 16px;">Attach</label>
+        <div>
+                        <span class="btn fileinput-button default">
+                                    <span>Select file</span>
+                                    <input type="file" name="files[]" multiple="">
+                                    </span>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<table class="table col-md-3 table-striped table-bordered table-hover" id="sample_1" aria-describedby="sample_1_info" style="width: 98%; margin-top: 40px;">
+    <thead>
+    <tr role="row">
+    <th class="table-checkbox sorting_disabled" role="columnheader" rowspan="1" colspan="1" aria-label="" style="width: 20px;">
+        <div class="checker"><span><input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes"></span></div></th>
+    <th class="sorting" role="columnheader" tabindex="0" aria-controls="sample_1" rowspan="1" colspan="1" aria-label="Username: activate to sort column ascending" style="width: 80%;">Username</th>
+
+    </thead>
+
+    <tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="gradeX odd">
+        <td class=" sorting_1"><div class="checker"><span class=""><input type="checkbox" class="checkboxes" value="1"></span></div></td>
+        <td class=" ">shuxer</td>
+    </tr><tr class="gradeX even">
+        <td class=" sorting_1"><div class="checker"><span><input type="checkbox" class="checkboxes" value="1"></span></div></td>
+        <td class=" ">looper</td>
+    </tr><tr class="odd gradeX">
+        <td class=" sorting_1"><div class="checker"><span><input type="checkbox" class="checkboxes" value="1"></span></div></td>
+        <td class=" ">userwow</td>
+    </tr>
+    </tbody></table>
+<div class="col-md-12 col-sm-12">
+    <!-- BEGIN PORTLET-->
+
+    <div class="portlet">
+        <div class="portlet-body" id="chats" style="margin-top:20px;" >
+            <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto;"><div class="scroller" style="overflow: hidden; width: auto;" data-always-visible="1" data-rail-visible1="1">
+                <ul class="chats">
+                    <li class="in">
+                        <img class="avatar img-responsive" alt="" src="img/avatar1.jpg">
+                        <div class="message">
+                            <span class="arrow"></span>
+                            <a href="#" class="name">Bob Nilson</a>
+                            <span class="datetime">at Jul 25, 2012 11:09</span>
+											<span class="body">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+											</span>
+                        </div>
+                    </li>
+                    <li class="out">
+                        <img class="avatar img-responsive" alt="" src="img/avatar2.jpg">
+                        <div class="message">
+                            <span class="arrow"></span>
+                            <a href="#" class="name">Lisa Wong</a>
+                            <span class="datetime">at Jul 25, 2012 11:09</span>
+											<span class="body">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+											</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="chat-form">
+                <div class="input-cont">
+                    <input class="form-control" type="text" placeholder="Type a message here...">
+                </div>
+                <div class="btn-cont">
+                    <span class="arrow"></span>
+                    <a href="" class="btn blue icn-only"><i class="fa fa-check icon-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END PORTLET-->
+</div>
+</form>
+<!-- END FORM-->
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>

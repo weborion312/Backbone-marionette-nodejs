@@ -1,0 +1,19 @@
+@col2-width: 125px;
+.panel_notifications {
+    .panel_main;
+        .feeds {
+            .col2{
+                width: @col2-width;
+                margin-left: -@col2-width;
+            }
+            .fa {
+                margin-top: 3px;
+            }
+            li:hover {
+                .date {
+                    color: fade(@main-color, 40%);
+                }
+                background-color: fade(@main-color, 10%);
+            }
+        }
+}

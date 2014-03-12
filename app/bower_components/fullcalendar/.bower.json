@@ -1,0 +1,23 @@
+{
+  "name": "fullcalendar",
+  "main": [
+    "fullcalendar.js",
+    "fullcalendar.css",
+    "fullcalendar.print.css",
+    "gcal.js"
+  ],
+  "dependencies": {
+    "jquery": "",
+    "jquery-ui": ""
+  },
+  "homepage": "https://github.com/bancek/fullcalendar",
+  "_release": "1134615aa5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1134615aa5951c50b543862fff433c085f120cf1"
+  },
+  "_source": "https://github.com/bancek/fullcalendar.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/bancek/fullcalendar.git"
+}

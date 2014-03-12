@@ -1,0 +1,63 @@
+{{!-- <link href="../ui_mockups/assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+<link href="../ui_mockups/assets/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="../ui_mockups/assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+<link href="../ui_mockups/assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="../ui_mockups/assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/> --}}
+<style>
+  .page-content {
+  margin-top: 42px;
+  height: 1200px;
+  }
+  .taskDescription{
+  top:142px;
+  }
+</style>
+<div class="row">
+  <div class="col-md-12 col-sm-12">
+    <div id="task-list-container" class="col-md-12 col-sm-12">
+      <div class="portlet paddingless">
+        <div class="portlet-title line">
+          <div class="caption">
+            Today
+          </div>
+        </div>
+        <ul class="page-breadcrumb breadcrumb">
+          <li>
+            <i class="fa fa-home"></i>
+            <a href="index.html">Home</a>
+            <i class="fa fa-angle-right"></i>
+          </li>
+        </ul>
+        <div class="portlet-body">
+          <!--BEGIN TABS-->
+          <div class="tabbable tabbable-custom">
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#tab_1_1" data-toggle="tab">Today</a>
+              </li>
+              <li>
+                <a href="#tab_1_2" data-toggle="tab">Tomorrow</a>
+              </li>
+              <li>
+                <a href="#tab_1_3" data-toggle="tab">Sunday</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab_1_1">
+                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 290px;">
+                  <div class="scroller" style="height: 290px; overflow: hidden; width: auto;" data-always-visible="1" data-rail-visible="0">
+                    <ul id="task-list" class="feeds">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div  id="task-details"></div>
+
+  </div>
+</div>
+

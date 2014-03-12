@@ -1,0 +1,21 @@
+{
+  "name": "backbone.auth",
+  "version": "0.1.0",
+  "homepage": "https://github.com/myhq/backbone.auth",
+  "authors": [
+    "joliveros <jose.oliveros.1983@gmail.com>"
+  ],
+  "description": "backbone extension that enables auth",
+  "main": "index.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone-amd": "~1.1.0"
+  }
+}

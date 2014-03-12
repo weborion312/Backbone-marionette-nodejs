@@ -1,0 +1,14 @@
+{
+  "name": "qs",
+  "homepage": "https://github.com/visionmedia/node-querystring",
+  "version": "0.6.5",
+  "_release": "0.6.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.6.5",
+    "commit": "472cecdce4c73379f3c6884eaf94c1ba39b4f37f"
+  },
+  "_source": "git://github.com/visionmedia/node-querystring.git",
+  "_target": "0.6.x",
+  "_originalSource": "git://github.com/visionmedia/node-querystring.git"
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>application</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="/styles/main.css">
+
+    </head>
+<body class="page-header-fixed">
+  <div class="header navbar navbar-inverse navbar-fixed-top">
+    <!-- BEGIN TOP NAVIGATION BAR -->
+    <div class="header-inner">
+      <!-- BEGIN LOGO -->  
+      <a class="navbar-brand" href="#"><span>todo.gl</span></a>
+      </a>
+      <!-- END LOGO -->
+      <!-- BEGIN RESPONSIVE MENU TOGGLER --> 
+      <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <img src="assets/menu-toggler.png" alt="">
+      </a> 
+      <!-- END RESPONSIVE MENU TOGGLER -->
+      <!-- BEGIN TOP NAVIGATION MENU -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#signin">Sign Up</a></li>
+        <li><a href="#signin">Sign In</a></li>
+      </ul>
+      <!-- END TOP NAVIGATION MENU -->
+    </div>
+    <!-- END TOP NAVIGATION BAR -->
+  </div>
+  <div class="clearfix"></div>
+  <div class="page-container">
+    <!-- BEGIN SIDE-BAR -->
+    <div id="page_sidebar" class="page-sidebar navbar-collapse collapse">
+      <ul class="page-sidebar-menu">
+        <li>
+          <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+          <div class="sidebar-toggler hidden-phone"></div>
+          <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+        </li>
+        <li>
+          <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+          <form class="sidebar-search" action="extra_search.html" method="POST">
+            <div class="form-container">
+              <div class="input-box">
+                <a href="javascript:;" class="remove"></a>
+                <input type="text" placeholder="Search...">
+                <input type="button" class="submit" value=" ">
+              </div>
+            </div>
+          </form>
+          <!-- END RESPONSIVE QUICK SEARCH FORM -->
+        </li>
+        <li class="start active">
+          <a href="#notifications">
+          <i class="fa fa-bullhorn"></i> 
+          <span class="title">Notifications</span>          
+          <span class="selected"></span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#inbox">
+          <i class="fa fa-inbox"></i>
+          <span class="title">Inbox</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#scheduled">
+          <i class="fa fa-calendar"></i>
+          <span class="title">scheduled</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#contacts">
+          <i class="fa fa-users"></i>
+          <span class="title">Contacts</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#project/1">
+          <i class="fa fa-square blue"></i>
+          <span class="title">Project_1</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#project/2">
+          <i class="fa fa-square yellow"></i>
+          <span class="title">Project_2</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="#project">
+          <span class="title">New Project</span>
+          <i class="fa fa-plus pull-right"></i>
+          </a>
+        </li>
+        <li class="">
+          <a href="#others">
+          <i class="fa fa-users"></i>
+          <span class="title">Others</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+      <!-- END SIDE-BAR -->
+      <!-- BEGIN CONTENT -->
+      <div class="page-content"></div>
+      <!-- END CONTENT -->
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "ms",
+  "homepage": "https://github.com/guille/ms.js",
+  "version": "0.6.1",
+  "_release": "0.6.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.6.1",
+    "commit": "9687edb6da890c61ddae80f28ef051afe305b0d1"
+  },
+  "_source": "git://github.com/guille/ms.js.git",
+  "_target": "0.6.x",
+  "_originalSource": "git://github.com/guille/ms.js.git"
+}

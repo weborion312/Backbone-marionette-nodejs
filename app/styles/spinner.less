@@ -1,0 +1,30 @@
+body {
+  // width: 100%;
+  // height: 100%;
+  font-family: @font-family-base;
+  font-weight: 100;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+  color: @text-color;
+  background-color: @body-bg;
+}
+
+#icon-spinner{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  postion:relative;
+  i{
+    :before { content: @fa-var-spinner; }
+  }
+  @media (max-width: @screen-xs){
+    margin: 50% auto;
+  }
+  @media (min-width: @screen-sm){
+    margin: 40% auto;
+  }
+  @media (min-width: @screen-lg){
+    margin: 24% auto;
+  }
+}
